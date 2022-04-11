@@ -167,7 +167,7 @@ while not game_over:
                         screen.blit(label,(40,10))
                         game_over = True
                 else:
-                    turn = 0
+                    turn = 1
             print_board(board)
             draw_board(board=board)
                 # turn+= 1
